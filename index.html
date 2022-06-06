@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Web Design Project</title>
+    <!-- External CSS  -->
+    <link rel="stylesheet" href="./style.css" />
+    <!-- Favicon  -->
+    <link
+      rel="shortcut icon"
+      href="./Images/favicon.png"
+      type="image/x-icon"
+      sizes="16*16"
+    />
+    <!-- Box Icon Cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- Font Awesome Cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Animate On scroll  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <!-- Start Navbar  -->
+    <header class="header" id="up">
+      <a href="#" class="logo"
+        ><i class="bx bx-paper-plane"></i>Tra<span>vel</span></a
+      >
+      <div class="group" data-aos="fade-right" data-aos-duration="2000">
+        <ul class="navigation">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#destination">Destination</a></li>
+          <li><a href="#category">Category</a></li>
+          <li><a href="#blog">Blog</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <ul class="action">
+          <li>
+            <a href="#"> <i class="bx bx-search"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="bx bxs-user"></i></a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!-- End Navbar  -->
+
+    <!-- Start Cover  -->
+    <section>
+      <div class="banner">
+        <div class="bg">
+          <img src="./Images/bgimage.jpg" alt="" class="cover" />
+          <div class="cover-content">
+            <h2>Explore The World</h2>
+            <a href="#" class="btn">Book Now</a>
+          </div>
+          <div class="searchBox">
+            <div class="inputBox">
+              <p>Enter Location</p>
+              <input type="text" placeholder="Ex: Maldives" name="" id="" />
+            </div>
+            <div class="inputBox">
+              <p>Check in</p>
+              <input type="datetime-local" name="" id="" />
+            </div>
+            <div class="inputBox">
+              <p>Check out</p>
+              <input type="datetime-local" name="" id="" />
+            </div>
+            <div class="inputBox">
+              <p class="white">_</p>
+              <input type="submit" value="Submit" name="" id="" class="" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Cover  -->
+
+    <!-- Start Popular Destination  -->
+    <section>
+      <div class="container-main-popular">
+        <h1>Popular Destination</h1>
+        <p>
+          Lorem Ipsum has been a industry's standard dummy next ever since the
+          1500s
+        </p>
+        <div class="container-popular">
+          <div
+            class="image-1"
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
+            <h1>Maldives</h1>
+          </div>
+          <div
+            class="image-2"
+            data-aos="flip-right"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
+            <h1>Thailand</h1>
+          </div>
+          <div
+            class="image-3"
+            data-aos="flip-up"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
+            <h1>Italy</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Popular Destination  -->
+
+    <!-- Start Offer  -->
+    <section class="offer">
+      <div class="container-main-popular">
+        <h1>Offers</h1>
+        <p>
+          Lorem Ipsum has been a industry's standard dummy next ever since the
+          1500s
+        </p>
+        <div class="container-offer">
+          <div
+            class="image-4"
+            data-aos="fade-right"
+            data-aos-delay="1000"
+            data-aos-duration="2000"
+          >
+            <img src="https://bit.ly/3GdsfVu" alt="" />
+            <div class="image-details">
+              <div class="detail-1">
+                <h3>Merlion</h3>
+                <p>Singapore</p>
+              </div>
+              <div class="detail-2">
+                <h3>$1000</h3>
+                <p>/Person</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="image-4"
+            data-aos="fade-up"
+            data-aos-delay="1200"
+            data-aos-duration="2000"
+          >
+            <img src="./Images/pexels-oliver-sjöström-931018.jpg" alt="" />
+            <div class="image-details">
+              <div class="detail-1">
+                <h3>Island</h3>
+                <p>Germany</p>
+              </div>
+              <div class="detail-2">
+                <h3>$2000</h3>
+                <p>/Person</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="image-4"
+            data-aos="fade-up"
+            data-aos-delay="800"
+            data-aos-duration="2000"
+          >
+            <img src="./Images/pexels-davi-pimentel-2064827.jpg" alt="" />
+            <div class="image-details">
+              <div class="detail-1">
+                <h3>Rome</h3>
+                <p>Italy</p>
+              </div>
+              <div class="detail-2">
+                <h3>$3000</h3>
+                <p>/Person</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Offer  -->
+
+    <!-- Start Category  -->
+    <section>
+      <div class="container-main-popular">
+        <h1>Categories</h1>
+        <p>
+          Lorem Ipsum has been a industry's standard dummy next ever since the
+          1500s
+        </p>
+        <div
+          class="container-category"
+          data-aos="zoom-in"
+          data-aos-duration="2000"
+        >
+          <div class="image-5">
+            <h3>Waterfall</h3>
+          </div>
+          <div class="image-6">
+            <h3>Forest</h3>
+          </div>
+          <div class="image-7">
+            <h3>Beach</h3>
+          </div>
+          <div class="image-8">
+            <h3>Desert</h3>
+          </div>
+          <div class="image-9">
+            <h3>Moutain</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Category  -->
+
+    <!-- Start Count  -->
+    <section class="bg-counting">
+      <div class="container-main-count">
+        <div class="container-count">
+          <div
+            class="count-1"
+            data-aos="fade-left"
+            data-aos-delay="1000"
+            data-aos-duration="2000"
+          >
+            <h1>10 +</h1>
+            <p>Year Experiences</p>
+          </div>
+          <div class="count-1">
+            <h1>500 +</h1>
+            <p>Destination Collaboration</p>
+          </div>
+          <div
+            class="count-1"
+            data-aos="fade-right"
+            data-aos-delay="1000"
+            data-aos-duration="2000"
+          >
+            <h1>6000 +</h1>
+            <p>Happy Customers</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Count  -->
+
+    <!-- Start top Destination  -->
+    <section class="top">
+      <div class="container-main-popular">
+        <h1>Top Destination</h1>
+        <p>
+          Lorem Ipsum has been a industry's standard dummy next ever since the
+          1500s
+        </p>
+        <div class="container-top-destination">
+          <div class="image-10">
+            <h1>Greece</h1>
+          </div>
+          <div class="image-11">
+            <h1>Norway</h1>
+          </div>
+          <div class="image-12">
+            <h1>Paris</h1>
+          </div>
+          <div class="image-13">
+            <h1>Bercelona</h1>
+          </div>
+          <div class="image-14">
+            <h1>Amsterdam</h1>
+          </div>
+          <div class="image-15">
+            <h1>Dubai</h1>
+          </div>
+          <div class="image-16">
+            <h1>London</h1>
+          </div>
+          <div class="image-17">
+            <h1>Portugal</h1>
+          </div>
+        </div>
+        <div class="view-all">
+          <button>View All</button>
+        </div>
+      </div>
+    </section>
+    <!-- End top Destination  -->
+
+    <!-- Start Blogs  -->
+    <section class="blog">
+      <div class="container-main-popular">
+        <h1>Our Blogs</h1>
+        <p>
+          Lorem Ipsum has been a industry's standard dummy next ever since the
+          1500s
+        </p>
+        <div class="container-blog">
+          <div class="card" data-aos="fade-up" data-aos-duration="1000">
+            <div class="imagebox">
+              <img src="./Images/traveler.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h2>Travel Like a Peacemaker</h2>
+              <p>
+                Churches for Middle East Peace (CMEP) partners with MEJDI tours
+                to offer custom group travel to Israel, Palestine, and other
+                destinations in the Middle East. Trips to the region offer
+                pilgrimages and advocacy-oriented travel....
+              </p>
+            </div>
+          </div>
+          <div class="card" data-aos="fade-down" data-aos-duration="1200">
+            <div class="imagebox">
+              <img src="./Images/pexels-spencer-davis-4388168.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h2>Latest and Updates News</h2>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy
+                text ever since the 1500s, when an unknown printer took a galley
+                of type
+              </p>
+            </div>
+          </div>
+          <div class="card" data-aos="fade-left" data-aos-duration="1300">
+            <div class="imagebox">
+              <img src="./Images/greece.jpg" alt="" />
+            </div>
+            <div class="content">
+              <h2>Breaking Tourism News</h2>
+              <p>
+                The latest news and developments on travel from The National,
+                including travel industry updates, tourism news, inspiration,
+                tips, flights and holidays to....
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Blogs  -->
+
+    <!-- Start Customer Voice  -->
+    <section class="voice">
+      <div class="container-main-popular">
+        <h1>See Why Travllers <span>Choose</span> Us</h1>
+        <p>
+          Lorem Ipsum has been a industry's standard dummy next ever since the
+          1500s
+        </p>
+        <div class="container-customers-voice">
+          <!-- Start Customer Voice One  -->
+          <div
+            class="customer-card"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <img src="./Images/customer1.jpg" alt="" />
+            <div class="customer-voice">
+              <h1>Jerry Sam</h1>
+              <div class="customer-stars">
+                <i class="bx bxs-star checked"></i>
+                <i class="bx bxs-star checked"></i>
+                <i class="bx bxs-star checked"></i>
+                <i class="bx bxs-star checked"></i>
+                <i class="bx bxs-star-half checked"></i>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis
+                consequatur perspiciatis beatae ratione impedit.
+              </p>
+            </div>
+          </div>
+          <!-- End Customer Voice One  -->
+          <!-- Start Customer Voice Two  -->
+          <div
+            class="customer-card"
+            data-aos="fade-down"
+            data-aos-duration="1200"
+          >
+            <img src="./Images/customer2.jpg" alt="" />
+            <div class="customer-voice">
+              <h1>Mrs Mary</h1>
+              <div class="customer-stars">
+                <i class="bx bxs-star checked"></i>
+                <i class="bx bxs-star checked"></i>
+                <i class="bx bxs-star-half checked"></i>
+                <i class="bx bxs-star"></i>
+                <i class="bx bxs-star"></i>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis
+                consequatur perspiciatis beatae ratione impedit.
+              </p>
+            </div>
+          </div>
+          <!-- End Customer Voice Two  -->
+          <!-- Start Customer Voice Three  -->
+          <div
+            class="customer-card"
+            data-aos="fade-left"
+            data-aos-duration="1300"
+          >
+            <img src="./Images/customer3.jpg" alt="" />
+            <div class="customer-voice">
+              <h1>Rocky</h1>
+              <div class="customer-stars">
+                <i class="bx bxs-star checked"></i>
+                <i class="bx bxs-star checked"></i>
+                <i class="bx bxs-star checked"></i>
+                <i class="bx bxs-star-half checked"></i>
+                <i class="bx bxs-star"></i>
+              </div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis
+                consequatur perspiciatis beatae ratione impedit.
+              </p>
+            </div>
+          </div>
+          <!-- End Customer Voice Three  -->
+        </div>
+      </div>
+    </section>
+    <!-- End Customer Voice  -->
+
+    <!-- Start Gallery View  -->
+    <section class="gallery">
+      <div class="container-main-popular">
+        <h1>Destination <span>Gallery</span></h1>
+        <p>
+          Lorem Ipsum has been a industry's standard dummy next ever since the
+          1500s
+        </p>
+        <div class="image-grid">
+          <img
+            class="image-grid-col-2 image-grid-row-2"
+            src="./Images/gallery4.jpg"
+            alt=""
+          />
+          <img src="./Images/gallery1.jpg" alt="" />
+          <img src="./Images/gallery2.jpg" alt="" />
+          <img src="./Images/gallery3.jpg" alt="" />
+          <img src="./Images/gallery5.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- End Gallery View  -->
+
+    <!-- Start Services  -->
+    <section class="bg-counting">
+      <div class="container-main-count">
+        <div class="container-count">
+          <div
+            class="count-1"
+            data-aos="fade-left"
+            data-aos-delay="1000"
+            data-aos-duration="2000"
+          >
+            <img src="https://bit.ly/3MMqIIG" alt="" />
+            <p>Online Banking</p>
+          </div>
+          <div class="count-1">
+            <img src="https://bit.ly/3PJ9lds" alt="" />
+            <p style="text-align: center; margin-left: -130px">
+              100% Money back
+              <br />
+              Gurantee
+            </p>
+          </div>
+          <div
+            class="count-1"
+            data-aos="fade-right"
+            data-aos-delay="1000"
+            data-aos-duration="2000"
+          >
+            <img src="https://bit.ly/3wPZtpM" alt="" />
+            <p>Happiness & Safety</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Services  -->
+
+    <!-- Start Choose Tour  -->
+    <section>
+      <div class="container-main-popular">
+        <h1>Choose Tour</h1>
+        <p>Lorem Ipsum has been a industry's standard dummy next.</p>
+        <div class="container-category">
+          <div
+            class="choose-1"
+            data-aos="fade-left"
+            data-aos-delay="1000"
+            data-aos-duration="2000"
+          >
+            <img src="https://bit.ly/3GhKMjG" alt="" />
+            <h3>Title One</h3>
+          </div>
+          <div
+            class="choose-1"
+            data-aos="fade-up"
+            data-aos-delay="1200"
+            data-aos-duration="2000"
+          >
+            <img src="https://bit.ly/38gH8tV" alt="" />
+            <h3>Title Two</h3>
+          </div>
+          <div
+            class="choose-1"
+            data-aos="flip-up"
+            data-aos-delay="1000"
+            data-aos-duration="2000"
+          >
+            <img src="https://bit.ly/3lImx4Q" alt="" />
+            <h3>Title Three</h3>
+          </div>
+          <div
+            class="choose-1"
+            data-aos="fade-down"
+            data-aos-delay="1300"
+            data-aos-duration="2000"
+          >
+            <img src="https://bit.ly/3LKPSGl" alt="" />
+            <h3>Title Four</h3>
+          </div>
+          <div
+            class="choose-1"
+            data-aos="fade-right"
+            data-aos-delay="1500"
+            data-aos-duration="2000"
+          >
+            <img src="https://bit.ly/3NByAwM" alt="" />
+            <h3>Title Five</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Choose Tour  -->
+
+    <!-- Start Form  -->
+    <section class="form">
+      <div class="container-main-popular">
+        <h1>Contact Form</h1>
+        <p>Lorem Ipsum has been a industry's standard dummy next.</p>
+        <div class="container-form">
+          <div
+            class="form-left"
+            data-aos="fade-left"
+            data-aos-delay="1000"
+            data-aos-duration="2000"
+          >
+            <img src="./Images/contactform.svg" alt="" />
+          </div>
+          <div
+            class="form-right"
+            data-aos="fade-right"
+            data-aos-delay="1200"
+            data-aos-duration="2000"
+          >
+            <h2>Contact Us</h2>
+            <input type="text" class="contact-item" placeholder="Your Name" />
+            <input type="email" class="contact-item" placeholder="Your Email" />
+            <input type="text" class="contact-item" placeholder="Your Phone" />
+            <textarea
+              name=""
+              class="contact-item"
+              placeholder="Write Something...."
+            ></textarea>
+            <input
+              type="submit"
+              value="Sign In"
+              class="contact-item contact-btn"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Form  -->
+
+    <!-- Start Footer -->
+    <section class="footer" id="footer">
+      <a href="#" class="logo"
+        ><i class="bx bxs-planet"></i> <span class="fill">Tra</span>vel
+      </a>
+      <div
+        class="social-media"
+        data-aos="fade-left"
+        data-aos-delay="1000"
+        data-aos-duration="2000"
+      >
+        <a href="#" class="logo"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="logo"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="logo"><i class="bx bxl-android"></i></a>
+        <a href="#" class="logo"><i class="bx bxl-play-store"></i></a>
+        <a href="#" class="logo"><i class="bx bxl-instagram"></i></a>
+      </div>
+    </section>
+    <div class="copyright">
+      <p>
+        Travel Agency | We can go our dream country | @copyRight Designed By Zwe
+        Htet Aung
+      </p>
+    </div>
+    <!-- End Footer -->
+    <a href="#up"><button class="up">^</button></a>
+  </body>
+  <!-- Animate On Scroll -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</html>
